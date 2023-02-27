@@ -1,0 +1,44 @@
+.container {
+    padding: 25px 100px;
+}
+
+.container-top-bottom{
+    padding: 40px 0px;
+}
+
+.container-text-on-side{
+    padding: 0px 40px 0px 0px;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    
+}
+
+
+
+.container-description{
+    padding: 5px 10px;
+}
+
+
+@media (max-width: 700px){
+    
+    .container {
+        padding: 12px 30px;
+    }
+    
+    .container-text-on-side{
+        padding: 0px 20px 0px 0px;
+    }
+
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        
+    }
+}

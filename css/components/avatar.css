@@ -1,0 +1,36 @@
+.avatar-big-noborder {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 4px 4px 12px rgb(165, 165, 165);
+}
+
+
+.avatar-small {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.avatar-small-card {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    left: 75%;
+}
+
+
+@media (max-width: 700px){
+
+    .avatar-big-noborder {
+        height: 200px;
+        width: 200px;
+    }
+}

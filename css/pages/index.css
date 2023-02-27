@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+}
+
+.flex-titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+}
+
+
+.container-grid-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+       
+}
+
+
+@media (max-width: 700px){
+    
+    .flex-container{
+        display: block;
+        text-align: center;
+        font-size: 125%;
+    }
+    
+    .flex-titre{
+        font-size: 125%;
+    }
+    
+    .container-grid-title {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+           
+    }
+}

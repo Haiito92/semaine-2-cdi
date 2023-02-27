@@ -1,0 +1,42 @@
+/*Font style*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+/* Importation composants */
+
+@import url("./components/avatar.css");
+@import url("./components/banner.css");
+@import url("./components/button.css");
+@import url("./components/card.css");
+@import url("./components/container.css");
+@import url("./components/footer.css");
+@import url("./components/header.css");
+
+/* Importation style pages */
+
+@import url("./pages/index.css");
+@import url("./pages/biographie.css");
+@import url("./pages/contact.css");
+@import url("./pages/magicook.css");
+
+/*Style global*/
+
+body {
+    font-family:'Roboto', sans-serif;
+    margin :0px;
+}
+
+
+
+h2 {
+    color: red;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+strong{
+    color: red;
+}

@@ -1,0 +1,14 @@
+.banner {
+    background-image: linear-gradient(rgba(66, 66, 66, 0.4), rgba(0,0,0,0.4)), url("../../images/haitoooo.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 0px;
+    font-size: 175%;
+}
+
+@media (max-width: 700px){
+    .banner{
+        font-size: 120%;
+    }
+}

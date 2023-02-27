@@ -1,0 +1,55 @@
+.banner-magicook {
+    background-image: linear-gradient(rgba(66, 66, 66, 0.4), rgba(0,0,0,0.4)), url("../../images/Background.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px;
+    animation: rainbow 5s linear infinite; 
+}
+
+.flex-titre-magicook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 175%;
+    
+}
+
+.magicook-text{
+    font-size: 150%;
+}
+
+.magicook-text h3{
+    color: red;
+}
+
+@keyframes rainbow{
+    0%{
+        color: red;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: violet;
+    }
+    100%{
+        color: red;
+    }
+}
+
+@media (max-width: 700px){
+    .flex-titre-magicook{
+        font-size: 125%;
+        
+    }
+    .magicook-text{
+        font-size: 130%;
+    } 
+}
